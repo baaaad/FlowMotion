@@ -300,7 +300,7 @@ class FlowMotionProcessor:
 
 def main():
     parser = argparse.ArgumentParser(description='FlowMotion Video Motion Transfer')
-    parser.add_argument('--model_id', type=str, default="/home/zhenwang/HDD/models/models--Wan-AI--Wan2.1-T2V-1.3B-Diffusers/snapshots/0fad780a534b6463e45facd96134c9f345acfa5b")
+    parser.add_argument('--model_id', type=str, default="Wan-AI/Wan2.1-T2V-1.3B-Diffusers")
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--T_steps', type=int, default=50)
     parser.add_argument('--source_guidance_scale', type=float, default=1.5)
